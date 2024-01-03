@@ -9,6 +9,8 @@ const allowedOrigins = [
   "https://japanesegardening.live",
   "http://japanesegardening.live",
   "http://127.0.0.1:5500",
+  "https://shootinggamejapan.netlify.app",
+  "http://shootinggamejapan.netlify.app",
 ];
 
 // List of allowed referrers
@@ -16,6 +18,8 @@ const allowedReferrers = [
   "https://japanesegardening.live",
   "http://japanesegardening.live",
   "http://127.0.0.1:5500",
+  "https://shootinggamejapan.netlify.app",
+  "http://shootinggamejapan.netlify.app",
 ];
 
 // CORS configuration
