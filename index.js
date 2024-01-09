@@ -6,26 +6,18 @@ const PORT = 3000 || process.env.PORT;
 
 // List of allowed frontend origins for CORS
 const allowedOrigins = [
-  "https://japanesegardening.live",
-  "http://japanesegardening.live",
-  "https://shootinggamejapan.netlify.app",
-  "http://shootinggamejapan.netlify.app",
-  "https://nihonpizzeria.shop",
-  "http://nihonpizzeria.shop",
-  "https://nihonpizzeria.shop/",
-  "http://nihonpizzeria.shop/",
+  "http://127.0.0.1:5501",
+  "http://127.0.0.0:5501",
+  "https://carsworldjapan.shop",
+  "http://carsworldjapan.shop",
 ];
 
 // List of allowed referrers
 const allowedReferrers = [
-  "https://japanesegardening.live",
-  "http://japanesegardening.live",
-  "https://shootinggamejapan.netlify.app",
-  "http://shootinggamejapan.netlify.app",
-  "https://nihonpizzeria.shop",
-  "http://nihonpizzeria.shop",
-  "https://nihonpizzeria.shop/",
-  "http://nihonpizzeria.shop/",
+  "http://127.0.0.1:5501",
+  "http://127.0.0.0:5501",
+  "https://carsworldjapan.shop",
+  "http://carsworldjapan.shop",
 ];
 
 // CORS configuration
