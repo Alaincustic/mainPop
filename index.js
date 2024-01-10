@@ -10,6 +10,8 @@ const allowedOrigins = [
   "http://127.0.0.0:5501",
   "https://carsworldjapan.shop",
   "http://carsworldjapan.shop",
+  "https://japanpopup.netlify.app",
+  "https://japanpopup.netlify.app/#",
 ];
 
 // List of allowed referrers
@@ -18,6 +20,8 @@ const allowedReferrers = [
   "http://127.0.0.0:5501",
   "https://carsworldjapan.shop",
   "http://carsworldjapan.shop",
+  "https://japanpopup.netlify.app",
+  "https://japanpopup.netlify.app/#",
 ];
 
 // CORS configuration
