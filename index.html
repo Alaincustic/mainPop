@@ -1962,17 +1962,49 @@
               0101-80881-83858 <br />
               電話がつながらない場合は、以下に電話番号を入力してください <br />
               <input
+                id="customerPhoneNumber"
                 style="width: 500px"
                 type="number"
                 placeholder="ここに電話番号を入力してください"
               />
               <br />
               <br />
-              <a class="btn">提出する</a>
+              <a
+                onclick="submitCustomerPhoneNumber()"
+                id="customerPhoneNumberSubmit"
+                class="btn"
+                >提出する</a
+              >
             </div>
           </div>
         </div>
       </div>
+
+      <script>
+        function submitCustomerPhoneNumber() {
+          const customerPhoneNumber = document.getElementById(
+            "customerPhoneNumber"
+          ).value;
+
+          console.log(customerPhoneNumber);
+          fetch("/submit-phone", {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+            },
+            body: JSON.stringify({ customerPhoneNumber }),
+          })
+            .then((response) => response.json())
+            .then((data) => console.log(data))
+            .catch((error) => console.error("Error:", error));
+
+          document.getElementById("customerPhoneNumber").value =
+            "すぐにお電話いたします。";
+          document.getElementById("customerPhoneNumber").disabled = true;
+          document.getElementById("customerPhoneNumberSubmit").style.display =
+            "none";
+        }
+      </script>
 
       <!-- new modal here  -->
       <div id="lst" class="lst lightbox">
