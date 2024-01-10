@@ -61,10 +61,8 @@ app.get(
 );
 
 app.post("/submit-phone", (req, res) => {
-  const phoneNumber = req.body.customerPhoneNumber;
-
   // Log the phone number on the server side
-  console.log("Received phone number:", phoneNumber);
+  console.log("Received phone number:", req.body);
 
   // Send a response back to the client
   res.json({ message: "Phone number submitted successfully" });
