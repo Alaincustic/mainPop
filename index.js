@@ -3,6 +3,9 @@ const cors = require("cors");
 const path = require("path");
 const app = express();
 const PORT = 3000 || process.env.PORT;
+const bodyParser = require("body-parser");
+app.use(bodyParser.json());
+
 
 // List of allowed frontend origins for CORS
 const allowedOrigins = [
