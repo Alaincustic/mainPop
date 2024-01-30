@@ -11,6 +11,7 @@ app.use(bodyParser.json());
 const allowedOrigins = [
   "http://127.0.0.1:5501",
   "http://127.0.0.0:5501",
+  "http://127.0.0.1:5500",
   "https://heiwajima.in",
   "http://heiwajima.in",
 ];
@@ -19,6 +20,7 @@ const allowedOrigins = [
 const allowedReferrers = [
   "http://127.0.0.1:5501",
   "http://127.0.0.0:5501",
+  "http://127.0.0.1:5500",
   "https://heiwajima.in",
   "http://heiwajima.in",
 ];
