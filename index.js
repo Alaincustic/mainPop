@@ -9,10 +9,14 @@ app.use(bodyParser.json());
 
 // List of allowed frontend origins for CORS
 const allowedOrigins = [
-  "https://heiwajima.in/",
-  "http://heiwajima.in/",
-  "https://heiwajima.in",
-  "http://heiwajima.in",
+  // "https://heiwajima.in/",
+  // "http://heiwajima.in/",
+  // "https://heiwajima.in",
+  // "http://heiwajima.in",
+  "https://glutenfreeosaka.shop/",
+  "http://glutenfreeosaka.shop/",
+  "https://glutenfreeosaka.shop",
+  "http://glutenfreeosaka.shop",
   "https://thaibasiljp.com/",
   "http://thaibasiljp.com/",
   "https://thaibasiljp.com",
@@ -23,10 +27,14 @@ const allowedOrigins = [
 
 // List of allowed referrers
 const allowedReferrers = [
-  "https://heiwajima.in/",
-  "http://heiwajima.in/",
-  "https://heiwajima.in",
-  "http://heiwajima.in",
+  // "https://heiwajima.in/",
+  // "http://heiwajima.in/",
+  // "https://heiwajima.in",
+  // "http://heiwajima.in",
+  "https://glutenfreeosaka.shop/",
+  "http://glutenfreeosaka.shop/",
+  "https://glutenfreeosaka.shop",
+  "http://glutenfreeosaka.shop",
   "https://thaibasiljp.com/",
   "http://thaibasiljp.com/",
   "https://thaibasiljp.com",
