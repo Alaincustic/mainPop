@@ -9,20 +9,20 @@ app.use(bodyParser.json());
 
 // List of allowed frontend origins for CORS
 const allowedOrigins = [
-  "https://heiwajima.in/",
-  "http://heiwajima.in/",
-  "https://heiwajima.in",
-  "http://heiwajima.in",
+  "https://thaibasiljp.com/",
+  "http://thaibasiljp.com/",
+  "https://thaibasiljp.com",
+  "http://thaibasiljp.com",
   "http://127.0.0.1:5501",
   "http://127.0.0.1:5500",
 ];
 
 // List of allowed referrers
 const allowedReferrers = [
-  "https://heiwajima.in/",
-  "http://heiwajima.in/",
-  "https://heiwajima.in",
-  "http://heiwajima.in",
+  "https://thaibasiljp.com/",
+  "http://thaibasiljp.com/",
+  "https://thaibasiljp.com",
+  "http://thaibasiljp.com",
   "http://127.0.0.1:5501",
   "http://127.0.0.1:5500",
 ];
