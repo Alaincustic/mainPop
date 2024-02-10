@@ -10,6 +10,10 @@ app.use(bodyParser.json());
 // List of allowed frontend origins for CORS
 const allowedOrigins = [
   "https://thaibasiljp.com",
+  "https://sakiinstant.shop",
+  "https://sakiinstant.shop/",
+  "http://sakiinstant.shop",
+  "http://sakiinstant.shop/",
   "http://thaibasiljp.com",
   "https://theteamania.shop",
   "http://theteamania.shop",
@@ -21,7 +25,11 @@ const allowedOrigins = [
 
 // List of allowed referrers
 const allowedReferrers = [
-  "https://thaibasiljp.com",
+   "https://thaibasiljp.com",
+  "https://sakiinstant.shop",
+  "https://sakiinstant.shop/",
+  "http://sakiinstant.shop",
+  "http://sakiinstant.shop/",
   "http://thaibasiljp.com",
   "https://theteamania.shop",
   "http://theteamania.shop",
